@@ -184,10 +184,12 @@ export default {
     box-shadow: none;
 
     img {
+      position: absolute;
       width: 12px;
       height: 12px;
       color: #fff;
       box-shadow: none;
+      z-index: 1057;
     }
   
     &:focus {
